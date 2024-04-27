@@ -1,10 +1,10 @@
-# Mustafif Mufi
+# Mufi Homebrew Tap
 
-## How do I install these formulae?
+## Installation
 
-`brew install mustafif/mufi/<formula>`
+`brew install mustafif/mufi/MufiZ`
 
-Or `brew tap mustafif/mufi` and then `brew install <formula>`.
+Or `brew tap mustafif/mufi` and then `brew install MufiZ`.
 
 ## Documentation
 
