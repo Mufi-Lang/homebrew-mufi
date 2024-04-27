@@ -3,7 +3,7 @@ class Mufiz < Formula
   homepage "https://github.com/Mustafif/MufiZ"
 
   url "https://github.com/Mustafif/MufiZ/releases/download/v0.6.0/mufiz_0.6.0_x86_64-linux.zip"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "103e1c7db51158360cd8aac82c60fd998e1bcef9634151e22b6f0c7d74bf0108"
   license "GPL-2.0-only"
 
   # URL and SHA256 hash for ARM Mac
