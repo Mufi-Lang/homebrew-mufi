@@ -20,8 +20,10 @@ class Mufiz < Formula
 
   def install
     # Extract the contents of the zip archive
-    system "unzip", "-q", cached_download.to_s, "-d", "#{buildpath}/mufiz"
-    bin.install "#{buildpath}/mufiz" # Adjust the binary name if necessary
+    system "unzip", "-q", cached_download.to_s, "-d", "#{buildpath}"
+
+    # Move the binary to /usr/local/bin
+    bin.install "#{buildpath}/mufiz"
   end
 
   test do
