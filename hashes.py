@@ -1,7 +1,7 @@
 import requests
 import hashlib
 
-TAG = "next-experimental"
+TAG = "v0.7.0"
 VERSION = "0.7.0"
 
 links = [
