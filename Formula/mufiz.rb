@@ -2,21 +2,21 @@ class Mufiz < Formula
   desc "Mufi Lang with Ziggyness"
   homepage "https://github.com/Mustafif/MufiZ"
 
-  version = "0.7.0"
+  version = "0.8.0"
 
   url "https://github.com/Mustafif/MufiZ/releases/download/v#{version}/mufiz_#{version}_x86_64-linux.zip"
-  sha256 "d46045e72c0fd81ec31be5f568c35e95dc09a5d6778e0c51639db455bda14199"
+  sha256 "2e46ccdc9ee91d5655089eb6141c4a3e6cea4dcec3b887b9a46ec9e9762c55c8"
   license "GPL-2.0-only"
 
   # URL and SHA256 hash for ARM Mac
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Mustafif/MufiZ/releases/download/v#{version}/mufiz_#{version}_aarch64-macos.zip"
-      sha256 "7fb74348c27348d1e2648063820f4fb56db4c3d468a1759f6ca69d7758baab21"
+      sha256 "afb403aa864a673a60dc17f7dc25771db10c701b6d45fa17de99693937bac9b8"
     else
       # URL and SHA256 hash for Intel Mac
       url "https://github.com/Mustafif/MufiZ/releases/download/v#{version}/mufiz_#{version}_x86_64-macos.zip"
-      sha256 "d4f8669ac632f40a5a2f0a9d1b929319f756e00175d7896e9c6775be3f887dd1"
+      sha256 "7ad890f559b8ddf4d105bab80c9c244d9d19c7e90e526192e809248a2c0d2bd0"
     end
   end
 

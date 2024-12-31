@@ -1,8 +1,8 @@
 import requests
 import hashlib
 
-TAG = "v0.7.0"
-VERSION = "0.7.0"
+TAG = "next-experimental"
+VERSION = "0.8.0"
 
 links = [
     f"https://github.com/Mustafif/MufiZ/releases/download/{TAG}/mufiz_{VERSION}_x86_64-linux.zip",
