@@ -2,7 +2,7 @@ class Mufiz < Formula
   desc "Mufi Lang with Ziggyness"
   homepage "https://github.com/Mustafif/MufiZ"
 
-  version = "0.8.0"
+  version = "0.9.0"
 
   url "https://github.com/Mustafif/MufiZ/releases/download/v#{version}/mufiz_#{version}_x86_64-linux.zip"
   sha256 "2e46ccdc9ee91d5655089eb6141c4a3e6cea4dcec3b887b9a46ec9e9762c55c8"

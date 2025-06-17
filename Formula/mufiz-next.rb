@@ -3,7 +3,7 @@ class MufizNext < Formula
   homepage "https://github.com/Mustafif/MufiZ"
 
   tag = "next-experimental"
-  version = "0.8.0"
+  version = "0.9.0"
 
   url "https://github.com/Mustafif/MufiZ/releases/download/#{tag}/mufiz_#{version}_x86_64-linux.zip"
   sha256 "1432154114a64365842620e407e2b5b9f266a6cb744ff0e46ee5cd353d152887"
