@@ -1,0 +1,33 @@
+class MufizNext < Formula
+  desc "Mufi Lang with Ziggyness (experimental)"
+  homepage "https://github.com/Mustafif/MufiZ"
+
+  tag = "next-experimental"
+  version = "0.9.3"
+
+  url "https://github.com/Mustafif/MufiZ/releases/download/next-experimental/mufiz_0.9.3_x86_64-linux.zip"
+  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  license "GPL-2.0-only"
+
+  # URL and SHA256 hash for ARM Mac
+  on_macos do
+    if Hardware::CPU.arm?
+      url "https://github.com/Mustafif/MufiZ/releases/download/next-experimental/mufiz_0.9.3_aarch64-macos.zip"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    else
+      # URL and SHA256 hash for Intel Mac
+      url "https://github.com/Mustafif/MufiZ/releases/download/next-experimental/mufiz_0.9.3_x86_64-macos.zip"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    end
+  end
+
+  def install
+    # Move the binary to /usr/local/bin
+    bin.install "mufiz"
+  end
+
+  test do
+    # Add a simple test here if possible
+    system "#{bin}/mufiz", "--version"
+  end
+end

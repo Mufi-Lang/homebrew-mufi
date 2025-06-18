@@ -3,21 +3,21 @@ class MufizNext < Formula
   homepage "https://github.com/Mustafif/MufiZ"
 
   tag = "next-experimental"
-  version = "0.9.0"
+  version = "0.10.0"
 
-  url "https://github.com/Mustafif/MufiZ/releases/download/#{tag}/mufiz_#{version}_x86_64-linux.zip"
-  sha256 "1432154114a64365842620e407e2b5b9f266a6cb744ff0e46ee5cd353d152887"
+  url "https://github.com/Mustafif/MufiZ/releases/download/next-experimental/mufiz_0.10.0_x86_64-linux.zip"
+  sha256 "3e1c1e2c88b644aaf39c9846cff9e74d4cd9c4e6a9122ebf7e3478e8d7b1482c"
   license "GPL-2.0-only"
 
   # URL and SHA256 hash for ARM Mac
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Mustafif/MufiZ/releases/download/#{tag}/mufiz_#{version}_aarch64-macos.zip"
-      sha256 "0738eebf940425e0dcb005a3932f2ae58c9a8487673fdd55a59dca95d08130e4"
+      url "https://github.com/Mustafif/MufiZ/releases/download/next-experimental/mufiz_0.10.0_aarch64-macos.zip"
+      sha256 "7c0f813c23e0c5b443f921d6f9ab312f89701a87f639e1b85f6a971cd3541561"
     else
       # URL and SHA256 hash for Intel Mac
-      url "https://github.com/Mustafif/MufiZ/releases/download/#{tag}/mufiz_#{version}_x86_64-macos.zip"
-      sha256 "0067cfba2c410a2436f440d7f6efa4de3fda2ad1de918970850c1ec9e4cbc030"
+      url "https://github.com/Mustafif/MufiZ/releases/download/next-experimental/mufiz_0.10.0_x86_64-macos.zip"
+      sha256 "d509dbba6db312f113948334904bbffad1ce53a4dca91c63c7eeba7450f30128"
     end
   end
 
